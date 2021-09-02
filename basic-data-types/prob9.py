@@ -8,3 +8,8 @@ if __name__ == '__main__':
         if arr[i+1]<arr[i]:
             print(arr[i+1])
             break
+
+# if __name__ == '__main__':
+#     n = int(input())
+#     arr = map(int, input().split())
+#     print (sorted(set(arr))[-2])
