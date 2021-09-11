@@ -6,7 +6,6 @@ def print_formatted(number):
     x = len(str(c[2:]))
     for i in range(1, number+1):
         print(str(i).rjust(x)+' '+str(oct(i))[2:].rjust(x)+' '+str(hex(i))[2:].rjust(x).swapcase()+' '+str(bin(i))[2:].rjust(x))
-    # your code goes here
 
 if __name__ == '__main__':
     n = int(input())
